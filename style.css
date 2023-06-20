@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  text-shadow: 15px 10px 10px Black;
+  display: flex;
+  margin: auto;
+  height: max-content;
+  width: max-content;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.color{
+background-color: blue;
+height: 60px;
+width: 60px;
+border: 1px solid black;
+display: inline-block;
+}
+
+#color-palette{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    margin-top: 10px;   
+}
+
+#button-random-color{
+    background-color: rgb(255, 164, 66);
+    height: max-content;
+    width: 160px;
+    margin-top: 10px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold
+}
+
+.containerButton {
+margin: auto; 
+width: max-content;
+margin-top: 5px;
+}
+
+body {
+  height: 400vh;
+  background-image:url(./Block-HD-Wallpaper.jpg) 
+}
+
+#pixel-board {
+  background-color: white;
+  width: max-content;
+  height: max-content;
+ margin: auto;
+ margin-top: 20px;
+}
+
+.linha1 {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  
+}
+
+.pixel {
+  border: solid black 1px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  display: inline-block;
+}
+
+#board-size {
+  background-color: rgba(222, 5, 251, 0.926);
+  width: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold
+}
+
+#generate-board {
+  background-color: rgb(21, 196, 21);
+  width: 70px;
+  color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold
+}
+
+#clear-board {
+  background-color: deepskyblue;
+  width: 80px;
+  color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold
+}
